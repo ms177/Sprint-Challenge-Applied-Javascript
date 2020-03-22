@@ -9,7 +9,7 @@
 //    <div class="tab">topic here</div>
 axios.get("https://lambda-times-backend.herokuapp.com/topics")
 .then(response => {
-  console.log('my data is', response.data)
+  console.log('my tab data is', response.data)
 });
 
 
